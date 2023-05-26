@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(45deg , rgb(135 129 255) , rgb(399 110 110)); */
+    position: relative;
+}
+.container .box{
+position: absolute;
+width: 350px;
+top: 50%;
+left: 50%;
+transform: translate(-50% , -50%);
+background: linear-gradient(45deg , rgb(216, 164, 51) , rgb(39 110 110));
+
+padding: 25px 25px 45px 25px;
+border-radius: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 44px;
+    margin-bottom: 30px;
+position: relative;    
+}
+h2::before{
+    position: absolute;
+    content: '';
+    width: 129px;
+    height: 5px;
+    border-radius: 50px;
+    background: linear-gradient(45deg , #875cff);
+    bottom: -8px;
+}
+.box .input_box1{
+    width: 100%;
+    /*position:  relative;*/
+
+}
+.box .input_box1 input[type="text"]{
+    width: 100%;
+    font-size: 26px;
+    margin: 16px 0px;
+    outline: none;
+    border-width:  0px 0px 2px 0px;
+    border-color: #cd7acd;
+}
+.box .input_box1 label{
+    position: absolute;
+    left: 33px;
+    top: 124px;
+    font-size: 26px;
+    color: #0000009e;
+    pointer-events: none;
+    transition: 0.2s;
+}
+.box .input_box1 input:focus + label,
+.box .input_box1 input:valid + label{
+    top: 94px;
+    font-size: 18px;
+color: #cd7acd;
+
+
+}
+.box .input_box2{
+    width: 100%;
+    /*position:  relative;*/
+
+}
+.box .input_box2 input[type="text"]{
+    width: 100%;
+    font-size: 26px;
+    margin: 16px 0px;
+    outline: none;
+    border-width:  0px 0px 2px 0px;
+    border-color: #cd7acd;
+}
+.box .input_box2 label{
+    position: absolute;
+    left: 33px;
+    top: 189px;
+    font-size: 26px;
+    color: #0000009e;
+    pointer-events: none;
+    transition: 0.2s;
+}
+.box .input_box2 input:focus + label,
+.box .input_box2 input:valid + label{
+    top: 159px;
+    font-size: 18px;
+color: #cd7acd;
+
+
+}
+.box .input_box3{
+    width: 100%;
+    /*position:  relative;*/
+
+}
+.box .input_box3 input[type="text"]{
+    width: 100%;
+    font-size: 26px;
+    margin: 16px 0px;
+    outline: none;
+    border-width:  0px 0px 2px 0px;
+    border-color: #cd7acd;
+}
+.box .input_box3 label{
+    position: absolute;
+    left: 33px;
+    top: 253px;
+    font-size: 26px;
+    color: #0000009e;
+    pointer-events: none;
+    transition: 0.2s;
+}
+.box .input_box3 input:focus + label,
+.box .input_box3 input:valid + label{
+    top: 223px;
+    font-size: 18px;
+color: #cd7acd;
+
+
+}
+.box .signup_button{
+    width: 100%;
+   
+    border: none;
+    padding: 10px 16px;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #181717;
+    cursor: pointer;
+    border-radius: 50px;
+transition: 0.2s;
+}
+.box .signup_button:active{
+    transform: scale3d(0.9,0.9,0.9);
+
+
+}
+.box .login_link{
+    font-size: 20px;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    
+}
+.box .login_link a{
+    color: #000;
+    text-decoration: none;
+
+}
+.box .login_link a:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+
+}
